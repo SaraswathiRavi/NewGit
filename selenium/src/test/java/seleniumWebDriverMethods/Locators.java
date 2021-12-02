@@ -30,6 +30,7 @@ public class Locators {
 	    driver.findElement(By.xpath("//div[contains(@id,'contact-link')]//a[@href ='http://automationpractice.com/index.php?controller=contact']")); 
 	WebElement str = 	driver.findElement(By.tagName("a"));
 	System.out.println(str);
+	
+	System.out.println("sasi");
 	}
-
 }
